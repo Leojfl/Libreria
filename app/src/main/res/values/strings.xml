@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ZooSuport</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_create">Crear</string>
+    <string name="delete">Eliminar</string>
+    <string name="list">Listar</string>
+    <string name="exit">Salir</string>
+    <string name="menu_list">Listar</string>
+    <string name="text_id">ID</string>
+    <string name="menu_update">Actuallizar</string>
+    <string name="dialog_fire_missiles">¿Estas seguro de eliminar?</string>
+    <string name="dialog_credits">Alumno: Leonardo Jesus Flores Lopez </string>
+    <string name="dialog_credits1">Maestra: M. en C. PULIDO ALBA ROCIO ELIZABETH </string>
+
+
+</resources>

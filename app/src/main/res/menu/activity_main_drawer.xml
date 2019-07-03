@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_create"
+            android:icon="@drawable/ic_action_add_circle"
+            android:title="@string/menu_create" />
+        <item
+            android:id="@+id/menu_delete"
+            android:icon="@drawable/ic_action_delete_forever"
+            android:title="@string/delete" />
+
+        <item
+            android:id="@+id/menu_update"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_update" />
+        <item
+
+            android:id="@+id/menu_list"
+            android:icon="@drawable/ic_action_view_list"
+            android:title="@string/list" />
+
+
+        <item
+            android:id="@+id/menu_credits"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/list" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/exit" />
+        </menu>
+    </item>
+</menu>

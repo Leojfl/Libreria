@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="opcions">
+        <item>
+            Selecciona una clasificación
+        </item>
+        <item>
+            Reptiles
+        </item>
+        <item>
+            Aereos
+        </item>
+        <item>
+            Terrestres
+        </item>
+        <item>
+            Acuaticos
+        </item>
+    </string-array>
+    <string-array name="sx">
+        <item>
+            Masculino
+        </item>
+        <item>
+            Femenino
+        </item>
+    </string-array>
+    <string-array name="o0">
+        <item>
+            No ha seleccionado una clasificacion
+        </item>
+    </string-array>
+
+
+    <string-array name="o1">
+        <item>Elija tipo de animal</item>
+        <item>Serpiente</item>
+        <item>Iguana</item>
+        <item>Cocodrilo</item>
+    </string-array>
+
+    <string-array name="o2">
+        <item>Elija tipo de animal</item>
+        <item>Flamenco</item>
+        <item>Buho</item>
+        <item>Pato</item>
+        <item>Halcon</item>
+    </string-array>
+
+    <string-array name="o3">
+        <item>Elija tipo de animal</item>
+        <item>Jirafa</item>
+        <item>Tigre</item>
+        <item>Elefante</item>
+        <item>Rinoceronte</item>
+    </string-array>
+
+    <string-array name="o4">
+        <item>Elija tipo de animal</item>
+        <item>Delfin</item>
+        <item>Tiburon</item>
+        <item>Ballena</item>
+        <item>Mantarraya</item>
+    </string-array>
+
+</resources>
