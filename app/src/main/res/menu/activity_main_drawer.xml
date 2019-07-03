@@ -27,7 +27,7 @@
         <item
             android:id="@+id/menu_credits"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/list" />
+            android:title="Creditos" />
     </group>
 
     <item android:title="Communicate">

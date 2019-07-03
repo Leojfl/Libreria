@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity
 
     FragmentTransaction transaction;
     public Fragment fragmentView;
+    AlertDialog.Builder builder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,14 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
+         builder = new AlertDialog.Builder(this);
+         builder.setTitle("Creditos");
+        builder.setMessage("Maestra: M. en C. PULIDO ALBA ROCIO ELIZABETH "+"\n"+
+            "Alumno: Leonardo Jesus Flores Lopez "+"\n")
+            .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                }
+            });
 
     }
 
@@ -113,12 +122,7 @@ public class MainActivity extends AppCompatActivity
                 fragmentView = new AnimalsFragment();
                 break;
             case R.id.menu_credits:
-                AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
-                builder.setMessage(R.string.dialog_credits+"\n"+R.string.dialog_credits1)
-                    .setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                        }
-                    });
+
                 // Create the AlertDialog object and return it
                 builder.create().show();
                 break;
